@@ -10,6 +10,9 @@ MAINTAINER JIN Tao <jeffkyjin@magicfirm.com>
 RUN apt-get update
 RUN apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev sshfs
 
+# Install Python python3.5-venv
+RUN apt-get install -y python3-venv libmysqlclient-dev python3-dev
+
 # ------------------------------------------------------------------------------
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
