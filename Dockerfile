@@ -2,8 +2,8 @@
 # Based on a work at https://github.com/docker/docker.
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM kdelfour/supervisor-docker
-MAINTAINER Kevin Delfour <kevin@delfour.eu>
+FROM jeffkyjin/supervisor-docker
+MAINTAINER JIN Tao <jeffkyjin@magicfirm.com>
 
 # ------------------------------------------------------------------------------
 # Install base
